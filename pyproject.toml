@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyfossakit"
+version = "0.1.0"
+description = "Fossa API SDK"
+authors = ["Mariano Dorado"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+colorama = "0.4.6"
+idna = "3.6"
+iniconfig = "2.0.0"
+packaging = "24.0"
+pluggy = "1.4.0"
+pytest = "8.1.1"
+requests = "2.31.0"
+urllib3 = "2.2.1"
+wheel = "0.42.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
