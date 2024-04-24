@@ -1,5 +1,9 @@
 # PyFOSSAKit
 
+> [!IMPORTANT]
+> This repository is not officially supported by FOSSA. It is provided as a starting point for custom integration using our supported REST API. Please refer to our REST API: https://docs.fossa.com/reference/enterprise-api for custom integration. If you have any questions, reach out to our support team at: https://support.fossa.com/hc/en-us
+
+
 A Python SDK for interacting with the FOSSA API, providing an easy way to integrate FOSSA's software composition analysis and license compliance capabilities into your Python applications.
 
 ## Introduction
