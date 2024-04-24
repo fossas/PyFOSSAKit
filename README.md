@@ -63,10 +63,19 @@ echo %FOSSA_API_KEY%
 
 ## Installation
 
-Install PyFOSSAKit using pip:
+
+Since PyFOSSAKit uses Poetry for package management, install it using Poetry instead of pip:
 
 ```bash
-pip install PyFOSSAKit
+poetry add PyFOSSAKit
+```
+
+Or, clone the repository and install the dependencies via Poetry:
+
+```bash
+git clone https://your-repository-url.git
+cd PyFOSSAKit
+poetry install
 ```
 
 Quickstart example of listing all projects using the PyFOSSAKit client:
